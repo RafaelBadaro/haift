@@ -11,6 +11,8 @@
 		5398B3C52B44E39800273FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B3C42B44E39800273FFB /* ContentView.swift */; };
 		5398B3C72B44E39900273FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5398B3C62B44E39900273FFB /* Assets.xcassets */; };
 		5398B3CA2B44E39900273FFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5398B3C92B44E39900273FFB /* Preview Assets.xcassets */; };
+		5398B3D12B44E48E00273FFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B3D02B44E48E00273FFB /* MainView.swift */; };
+		5398B3D32B44ECDC00273FFB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B3D22B44ECDC00273FFB /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5398B3C42B44E39800273FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5398B3C62B44E39900273FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5398B3C92B44E39900273FFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5398B3D02B44E48E00273FFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5398B3D22B44ECDC00273FFB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				5398B3C42B44E39800273FFB /* ContentView.swift */,
 				5398B3C62B44E39900273FFB /* Assets.xcassets */,
 				5398B3C82B44E39900273FFB /* Preview Content */,
+				5398B3D02B44E48E00273FFB /* MainView.swift */,
+				5398B3D22B44ECDC00273FFB /* ProfileView.swift */,
 			);
 			path = haift;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5398B3D32B44ECDC00273FFB /* ProfileView.swift in Sources */,
 				5398B3C52B44E39800273FFB /* ContentView.swift in Sources */,
+				5398B3D12B44E48E00273FFB /* MainView.swift in Sources */,
 				5398B3C32B44E39800273FFB /* haiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
