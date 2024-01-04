@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //@State User loggedUser = new User
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+       MainView()
     }
 }
 

@@ -9,13 +9,15 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        NavigationStack{
-            ProfileView()
-            NavigationLink("Profile", destination: ProfileView)
-            //NavigationLink("Todays mood")
-            //NavigationLink("App settings")
+        NavigationStack {
+            NavigationLink("Profile") {
+                ProfileView()
+            }
+            NavigationLink("Mood Today"){
+                MoodTodayView()
+            }
         }
-            
+
     }
 }
 
