@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532C31742B589F0200093D9F /* CalendarMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532C31732B589F0200093D9F /* CalendarMainView.swift */; };
 		5381F4412B46203600403A59 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381F4402B46203600403A59 /* LoginView.swift */; };
 		5381F4442B4620D600403A59 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381F4432B4620D600403A59 /* RegisterView.swift */; };
 		5381F4462B4622DB00403A59 /* MoodTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381F4452B4622DB00403A59 /* MoodTodayView.swift */; };
@@ -20,6 +21,8 @@
 		5381F45B2B4E12D700403A59 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5381F45A2B4E12D700403A59 /* FirebaseFirestoreSwift */; };
 		5381F45D2B4E12D700403A59 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5381F45C2B4E12D700403A59 /* FirebaseStorage */; };
 		5381F4612B4E134800403A59 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381F4602B4E134800403A59 /* AuthViewModel.swift */; };
+		5381F4662B58907700403A59 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381F4652B58907700403A59 /* MainView.swift */; };
+		5381F46B2B5892A100403A59 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381F46A2B5892A100403A59 /* SideMenuView.swift */; };
 		5398B3C32B44E39800273FFB /* haiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B3C22B44E39800273FFB /* haiftApp.swift */; };
 		5398B3C52B44E39800273FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B3C42B44E39800273FFB /* ContentView.swift */; };
 		5398B3C72B44E39900273FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5398B3C62B44E39900273FFB /* Assets.xcassets */; };
@@ -28,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		532C31732B589F0200093D9F /* CalendarMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMainView.swift; sourceTree = "<group>"; };
 		5381F4402B46203600403A59 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5381F4432B4620D600403A59 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		5381F4452B4622DB00403A59 /* MoodTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTodayView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		5381F4512B463AE200403A59 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		5381F4532B4E119D00403A59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5381F4602B4E134800403A59 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5381F4652B58907700403A59 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5381F46A2B5892A100403A59 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		5398B3BF2B44E39800273FFB /* haift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398B3C22B44E39800273FFB /* haiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haiftApp.swift; sourceTree = "<group>"; };
 		5398B3C42B44E39800273FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,8 +78,11 @@
 		5381F44C2B4629B300403A59 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5381F4692B58928500403A59 /* SideMenu */,
+				5381F4452B4622DB00403A59 /* MoodTodayView.swift */,
 				5381F44D2B4629DA00403A59 /* InputView.swift */,
 				5381F4512B463AE200403A59 /* SettingsRowView.swift */,
+				532C31732B589F0200093D9F /* CalendarMainView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -120,12 +129,20 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		5381F4632B4E29F400403A59 /* MoodToday */ = {
+		5381F4642B58905900403A59 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5381F4452B4622DB00403A59 /* MoodTodayView.swift */,
+				5381F4652B58907700403A59 /* MainView.swift */,
 			);
-			path = MoodToday;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5381F4692B58928500403A59 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5381F46A2B5892A100403A59 /* SideMenuView.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		5398B3B62B44E39800273FFB = {
@@ -147,12 +164,12 @@
 		5398B3C12B44E39800273FFB /* haift */ = {
 			isa = PBXGroup;
 			children = (
-				5381F4632B4E29F400403A59 /* MoodToday */,
 				5381F4622B4E16A400403A59 /* App */,
 				5381F44F2B462EBF00403A59 /* Authentication */,
 				5381F44C2B4629B300403A59 /* Components */,
 				5381F4472B46236500403A59 /* Models */,
 				5381F4502B4633FE00403A59 /* Profile */,
+				5381F4642B58905900403A59 /* Views */,
 				5398B3C42B44E39800273FFB /* ContentView.swift */,
 				5398B3C62B44E39900273FFB /* Assets.xcassets */,
 				5398B3C82B44E39900273FFB /* Preview Content */,
@@ -250,10 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5398B3D32B44ECDC00273FFB /* ProfileView.swift in Sources */,
+				5381F4662B58907700403A59 /* MainView.swift in Sources */,
 				5381F44B2B46240000403A59 /* Mood.swift in Sources */,
+				5381F46B2B5892A100403A59 /* SideMenuView.swift in Sources */,
 				5398B3C52B44E39800273FFB /* ContentView.swift in Sources */,
 				5381F4462B4622DB00403A59 /* MoodTodayView.swift in Sources */,
 				5381F4492B46237200403A59 /* User.swift in Sources */,
+				532C31742B589F0200093D9F /* CalendarMainView.swift in Sources */,
 				5381F4442B4620D600403A59 /* RegisterView.swift in Sources */,
 				5381F4522B463AE200403A59 /* SettingsRowView.swift in Sources */,
 				5381F4612B4E134800403A59 /* AuthViewModel.swift in Sources */,

@@ -72,6 +72,11 @@ struct ProfileView: View {
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView()
+        ProfileView().environmentObject({ () -> AuthViewModel in
+                           let envObj = AuthViewModel()
+                           envObj.currentUser = User.MOCK_USER
+                           return envObj
+                       }())
+
     }
 }
